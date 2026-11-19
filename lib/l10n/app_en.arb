@@ -1,0 +1,13 @@
+{
+  "appTitle": "Roll Length Estimator",
+  "@appTitle": {
+    "description": "The app title shown in the system UI."
+  },
+  "appDescription": "Estimate the material length remaining on a uniformly wound roll from its measured diameters and material thickness.",
+  "@appDescription": {
+    "description": "The short description shown on the home page."
+  },
+  "languageEnglish": "English",
+  "languageKorean": "한국어",
+  "privacyPolicy": "Privacy policy"
+}

@@ -1,0 +1,127 @@
+{
+  "name": "roll_length_estimator",
+  "org": "com.alinxs.apps",
+  "title": "Roll Length Estimator",
+  "description": "Estimate the material length remaining on a uniformly wound roll from its measured diameters and material thickness.",
+  "korean_summary": "롤의 바깥지름, 코어 지름, 재료 두께를 입력해 균일하게 감긴 재료의 남은 길이를 기기에서 추정하는 도구입니다. 계정, 백엔드, 서버 입력 저장 없이 오프라인으로 계산하며 작업을 가리지 않는 표준 크기 AdMob 배너 하나만 표시합니다.",
+  "design_system": {
+    "style": "minimal_material",
+    "seed_color": "#4E6472",
+    "theme_mode": "system",
+    "density": "compact",
+    "corner_style": "medium",
+    "motion": "subtle"
+  },
+  "icon": {
+    "version": 1,
+    "primary": "ruler_spacing",
+    "composition": "centered_safe_zone",
+    "foreground": "#FFFFFF",
+    "background": "#4E6472",
+    "secondary": "roll_profile",
+    "source": null
+  },
+  "requirements": "Build a compact English-first Flutter Android utility whose first phone viewport explains that it estimates material length on a uniformly and tightly wound roll and shows the measurement-unit selector, Outer diameter, Core diameter, Material thickness, and one obvious Estimate length action above the footer and banner. Support millimetres and inches as user-selectable input units, require all three dimensions to use the selected unit, and calculate length with L = pi times (outer diameter squared minus core diameter squared) divided by four times material thickness. Show the result in metres and feet, rounded to two decimal places, while keeping full precision during calculation, and label it Estimated length so the result is not presented as a guaranteed measurement. Also show the selected-unit result before conversion and a concise note that loose winding, compression, gaps, and thickness variation can change the real length. For valid sample inputs of 100 mm outer diameter, 40 mm core diameter, and 0.10 mm material thickness, show Estimated length, 65.97 m, and 216.45 ft. Reject an empty field with Enter all three measurements, zero or negative values with Use values greater than zero, an outer diameter less than or equal to the core diameter with Outer diameter must be larger than core diameter, and non-finite or unsupported numeric input with Enter valid numbers; preserve the last valid result after invalid submission. Provide Clear measurements as a secondary action. Do not save measurement history, access sensors or files, or request storage, contacts, location, camera, microphone, notification, Bluetooth, or other sensitive permissions. Require no account or backend, store no app inputs on a server, and allow networking only for the existing Google Mobile Ads AdMob SDK. Preserve the generated design system and buildAppTheme integration. Provide complete ARB translations without English substitutions for en, ko, ja, zh_Hans, zh_Hant, es, fr, de, pt_BR, it, nl, ru, ar, hi, id, and vi, including RTL-safe Arabic layout. Put an immediately usable compact AppBar language menu showing the current locale code and a chevron on the first screen. Put the session-only AppAppearanceMenu immediately to the left of the in-app privacy-policy action in a bottom-centered footer directly above exactly one non-intrusive standard AdSize.banner, exposing only minimal_material, flat, and soft. The banner must never cover or displace the purpose, inputs, primary action, validation, estimate, caution note, or footer. Deterministic widget tests must verify the exact metric sample result; equivalent inch inputs produce the same converted result within rounding tolerance; changing units updates labels without silently reinterpreting entered values; empty, zero, negative, non-finite, and outer-not-larger-than-core inputs show the specified localized errors while preserving the last valid result; and switching from English to Arabic translates labels, applies RTL layout without clipping, and preserves inputs and results.",
+  "planning": {
+    "source": "codex",
+    "priority": 0,
+    "launch_scope": "global",
+    "problem": "Adults handling rolled paper, film, tape, fabric, or similar material need a quick way to estimate remaining length from measurements when unrolling the material to measure it directly would be inconvenient.",
+    "audience": "Adult global users who work with uniformly wound rolls and can measure the roll diameter, core diameter, and material thickness.",
+    "differentiator": "Unlike the portfolio's linear cut planner and spacing tools, this utility estimates the continuous length already wound around a core and explicitly communicates the physical assumptions and uncertainty of the result.",
+    "monetization": "One standard-size AdMob banner remains below the bottom-centered appearance and privacy footer and never covers the measurement inputs, primary action, validation, estimate, or caution note.",
+    "privacy": "No account, backend, server-side input storage, saved measurement history, file access, or sensor access; entered dimensions and results remain on device for the current session, with AdMob advertising disclosed separately.",
+    "test_scenarios": "Widget tests cover the exact 100 mm, 40 mm, and 0.10 mm result; equivalent inch conversion; unit changes without silent input reinterpretation; empty, zero, negative, non-finite, and invalid diameter-order validation that retains the last valid estimate; English-to-Arabic switching; and RTL layout without clipping."
+  },
+  "deployment": {
+    "play": {
+      "default_language": "en-US",
+      "app_type": "app",
+      "pricing": "free"
+    },
+    "content": {
+      "contains_ads": true,
+      "target_audience": "teens_and_adults",
+      "user_generated_content": false
+    },
+    "data_safety": {
+      "account_required": false,
+      "app_inputs_server_stored": false,
+      "third_party_sdks": [
+        "admob"
+      ]
+    },
+    "release": {
+      "launch_scope": "global",
+      "internal_test": true,
+      "production_approval_required": true,
+      "initial_production_rollout": 1.0
+    },
+    "admob_secret": "roll_length_estimator_admob",
+    "category": "Tools"
+  },
+  "store_screenshots": [
+    {
+      "id": "phone-01",
+      "description": "Clean initial roll measurement state with all core inputs and the primary action visible.",
+      "actions": [],
+      "expected_texts": [
+        "Roll Length Estimator",
+        "Outer diameter",
+        "Core diameter",
+        "Material thickness",
+        "Estimate length"
+      ],
+      "forbidden_texts": [
+        "System UI isn't responding",
+        "isn't responding",
+        "DEBUG",
+        "has stopped"
+      ]
+    },
+    {
+      "id": "phone-02",
+      "description": "Estimate a uniformly wound roll from concrete metric measurements and show converted length results.",
+      "actions": [
+        {
+          "type": "input",
+          "target": "Outer diameter",
+          "text": "100"
+        },
+        {
+          "type": "input",
+          "target": "Core diameter",
+          "text": "40"
+        },
+        {
+          "type": "input",
+          "target": "Material thickness",
+          "text": "0.10"
+        },
+        {
+          "type": "tap",
+          "target": "Estimate length"
+        },
+        {
+          "type": "wait",
+          "seconds": 2
+        }
+      ],
+      "expected_texts": [
+        "Estimated length",
+        "65.97 m",
+        "216.45 ft"
+      ],
+      "forbidden_texts": [
+        "Enter all three measurements",
+        "Use values greater than zero",
+        "Outer diameter must be larger than core diameter",
+        "Enter valid numbers",
+        "System UI isn't responding",
+        "isn't responding",
+        "DEBUG",
+        "has stopped"
+      ]
+    }
+  ]
+}
