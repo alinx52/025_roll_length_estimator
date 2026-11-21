@@ -1,13 +1,33 @@
 {
+  "@@locale": "en",
   "appTitle": "Roll Length Estimator",
-  "@appTitle": {
-    "description": "The app title shown in the system UI."
-  },
-  "appDescription": "Estimate the material length remaining on a uniformly wound roll from its measured diameters and material thickness.",
-  "@appDescription": {
-    "description": "The short description shown on the home page."
-  },
-  "languageEnglish": "English",
-  "languageKorean": "한국어",
-  "privacyPolicy": "Privacy policy"
+  "@appTitle": {"description": "The app title."},
+  "appDescription": "Estimate the length on a uniformly and tightly wound roll.",
+  "languageMenuTooltip": "Choose language",
+  "privacyPolicy": "Privacy policy",
+  "appearanceMenuTooltip": "Choose appearance",
+  "appearanceMaterial": "Material",
+  "appearanceFlat": "Flat",
+  "appearanceSoft": "Soft",
+  "unitMillimetres": "Millimetres (mm)",
+  "unitInches": "Inches (in)",
+  "unitMillimetresShort": "mm",
+  "unitInchesShort": "in",
+  "outerDiameter": "Outer diameter",
+  "coreDiameter": "Core diameter",
+  "materialThickness": "Material thickness",
+  "estimateLength": "Estimate length",
+  "clearMeasurements": "Clear measurements",
+  "estimatedLength": "Estimated length",
+  "metresResult": "{value} m",
+  "@metresResult": {"placeholders": {"value": {"type": "String"}}},
+  "feetResult": "{value} ft",
+  "@feetResult": {"placeholders": {"value": {"type": "String"}}},
+  "selectedUnitResult": "In selected unit: {value} {unit}",
+  "@selectedUnitResult": {"placeholders": {"value": {"type": "String"}, "unit": {"type": "String"}}},
+  "cautionNote": "Loose winding, compression, gaps, and thickness variation can change the real length.",
+  "errorAllMeasurements": "Enter all three measurements",
+  "errorPositive": "Use values greater than zero",
+  "errorOuterLarger": "Outer diameter must be larger than core diameter",
+  "errorValidNumbers": "Enter valid numbers"
 }

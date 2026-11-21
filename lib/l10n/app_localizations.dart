@@ -5,8 +5,21 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
+import 'app_localizations_ar.dart';
+import 'app_localizations_de.dart';
 import 'app_localizations_en.dart';
+import 'app_localizations_es.dart';
+import 'app_localizations_fr.dart';
+import 'app_localizations_hi.dart';
+import 'app_localizations_id.dart';
+import 'app_localizations_it.dart';
+import 'app_localizations_ja.dart';
 import 'app_localizations_ko.dart';
+import 'app_localizations_nl.dart';
+import 'app_localizations_pt.dart';
+import 'app_localizations_ru.dart';
+import 'app_localizations_vi.dart';
+import 'app_localizations_zh.dart';
 
 // ignore_for_file: type=lint
 
@@ -95,38 +108,180 @@ abstract class AppLocalizations {
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
     Locale('en'),
+    Locale('ar'),
+    Locale('de'),
+    Locale('es'),
+    Locale('fr'),
+    Locale('hi'),
+    Locale('id'),
+    Locale('it'),
+    Locale('ja'),
     Locale('ko'),
+    Locale('nl'),
+    Locale('pt'),
+    Locale('pt', 'BR'),
+    Locale('ru'),
+    Locale('vi'),
+    Locale('zh'),
+    Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hans'),
+    Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant'),
   ];
 
-  /// The app title shown in the system UI.
+  /// The app title.
   ///
   /// In en, this message translates to:
   /// **'Roll Length Estimator'**
   String get appTitle;
 
-  /// The short description shown on the home page.
+  /// No description provided for @appDescription.
   ///
   /// In en, this message translates to:
-  /// **'Estimate the material length remaining on a uniformly wound roll from its measured diameters and material thickness.'**
+  /// **'Estimate the length on a uniformly and tightly wound roll.'**
   String get appDescription;
 
-  /// No description provided for @languageEnglish.
+  /// No description provided for @languageMenuTooltip.
   ///
   /// In en, this message translates to:
-  /// **'English'**
-  String get languageEnglish;
-
-  /// No description provided for @languageKorean.
-  ///
-  /// In en, this message translates to:
-  /// **'한국어'**
-  String get languageKorean;
+  /// **'Choose language'**
+  String get languageMenuTooltip;
 
   /// No description provided for @privacyPolicy.
   ///
   /// In en, this message translates to:
   /// **'Privacy policy'**
   String get privacyPolicy;
+
+  /// No description provided for @appearanceMenuTooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose appearance'**
+  String get appearanceMenuTooltip;
+
+  /// No description provided for @appearanceMaterial.
+  ///
+  /// In en, this message translates to:
+  /// **'Material'**
+  String get appearanceMaterial;
+
+  /// No description provided for @appearanceFlat.
+  ///
+  /// In en, this message translates to:
+  /// **'Flat'**
+  String get appearanceFlat;
+
+  /// No description provided for @appearanceSoft.
+  ///
+  /// In en, this message translates to:
+  /// **'Soft'**
+  String get appearanceSoft;
+
+  /// No description provided for @unitMillimetres.
+  ///
+  /// In en, this message translates to:
+  /// **'Millimetres (mm)'**
+  String get unitMillimetres;
+
+  /// No description provided for @unitInches.
+  ///
+  /// In en, this message translates to:
+  /// **'Inches (in)'**
+  String get unitInches;
+
+  /// No description provided for @unitMillimetresShort.
+  ///
+  /// In en, this message translates to:
+  /// **'mm'**
+  String get unitMillimetresShort;
+
+  /// No description provided for @unitInchesShort.
+  ///
+  /// In en, this message translates to:
+  /// **'in'**
+  String get unitInchesShort;
+
+  /// No description provided for @outerDiameter.
+  ///
+  /// In en, this message translates to:
+  /// **'Outer diameter'**
+  String get outerDiameter;
+
+  /// No description provided for @coreDiameter.
+  ///
+  /// In en, this message translates to:
+  /// **'Core diameter'**
+  String get coreDiameter;
+
+  /// No description provided for @materialThickness.
+  ///
+  /// In en, this message translates to:
+  /// **'Material thickness'**
+  String get materialThickness;
+
+  /// No description provided for @estimateLength.
+  ///
+  /// In en, this message translates to:
+  /// **'Estimate length'**
+  String get estimateLength;
+
+  /// No description provided for @clearMeasurements.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear measurements'**
+  String get clearMeasurements;
+
+  /// No description provided for @estimatedLength.
+  ///
+  /// In en, this message translates to:
+  /// **'Estimated length'**
+  String get estimatedLength;
+
+  /// No description provided for @metresResult.
+  ///
+  /// In en, this message translates to:
+  /// **'{value} m'**
+  String metresResult(String value);
+
+  /// No description provided for @feetResult.
+  ///
+  /// In en, this message translates to:
+  /// **'{value} ft'**
+  String feetResult(String value);
+
+  /// No description provided for @selectedUnitResult.
+  ///
+  /// In en, this message translates to:
+  /// **'In selected unit: {value} {unit}'**
+  String selectedUnitResult(String value, String unit);
+
+  /// No description provided for @cautionNote.
+  ///
+  /// In en, this message translates to:
+  /// **'Loose winding, compression, gaps, and thickness variation can change the real length.'**
+  String get cautionNote;
+
+  /// No description provided for @errorAllMeasurements.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter all three measurements'**
+  String get errorAllMeasurements;
+
+  /// No description provided for @errorPositive.
+  ///
+  /// In en, this message translates to:
+  /// **'Use values greater than zero'**
+  String get errorPositive;
+
+  /// No description provided for @errorOuterLarger.
+  ///
+  /// In en, this message translates to:
+  /// **'Outer diameter must be larger than core diameter'**
+  String get errorOuterLarger;
+
+  /// No description provided for @errorValidNumbers.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter valid numbers'**
+  String get errorValidNumbers;
 }
 
 class _AppLocalizationsDelegate
@@ -139,20 +294,87 @@ class _AppLocalizationsDelegate
   }
 
   @override
-  bool isSupported(Locale locale) =>
-      <String>['en', 'ko'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>[
+    'ar',
+    'de',
+    'en',
+    'es',
+    'fr',
+    'hi',
+    'id',
+    'it',
+    'ja',
+    'ko',
+    'nl',
+    'pt',
+    'ru',
+    'vi',
+    'zh',
+  ].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
 }
 
 AppLocalizations lookupAppLocalizations(Locale locale) {
+  // Lookup logic when language+script codes are specified.
+  switch (locale.languageCode) {
+    case 'zh':
+      {
+        switch (locale.scriptCode) {
+          case 'Hans':
+            return AppLocalizationsZhHans();
+          case 'Hant':
+            return AppLocalizationsZhHant();
+        }
+        break;
+      }
+  }
+
+  // Lookup logic when language+country codes are specified.
+  switch (locale.languageCode) {
+    case 'pt':
+      {
+        switch (locale.countryCode) {
+          case 'BR':
+            return AppLocalizationsPtBr();
+        }
+        break;
+      }
+  }
+
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
+    case 'ar':
+      return AppLocalizationsAr();
+    case 'de':
+      return AppLocalizationsDe();
     case 'en':
       return AppLocalizationsEn();
+    case 'es':
+      return AppLocalizationsEs();
+    case 'fr':
+      return AppLocalizationsFr();
+    case 'hi':
+      return AppLocalizationsHi();
+    case 'id':
+      return AppLocalizationsId();
+    case 'it':
+      return AppLocalizationsIt();
+    case 'ja':
+      return AppLocalizationsJa();
     case 'ko':
       return AppLocalizationsKo();
+    case 'nl':
+      return AppLocalizationsNl();
+    case 'pt':
+      return AppLocalizationsPt();
+    case 'ru':
+      return AppLocalizationsRu();
+    case 'vi':
+      return AppLocalizationsVi();
+    case 'zh':
+      return AppLocalizationsZh();
   }
 
   throw FlutterError(
