@@ -1,0 +1,9 @@
+{
+  "language": "en-US",
+  "title": "Roll Length Estimator",
+  "short_description": "Estimate the material length remaining on a uniformly wound roll from its",
+  "full_description": "Roll Length Estimator\n\nEstimate the material length remaining on a uniformly wound roll from its measured diameters and material thickness.\n\nFeatures:\n• Simple, clear results\n• Works offline\n• Choose your preferred language in the app settings",
+  "contact_email": "contact@alinxs.com",
+  "contact_website": "https://alinxs.com",
+  "contact_phone": ""
+}
