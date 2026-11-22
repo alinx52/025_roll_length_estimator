@@ -94,4 +94,52 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get errorValidNumbers => 'أدخل أرقاماً صالحة';
+
+  @override
+  String get helpTooltip => 'المساعدة والدليل';
+
+  @override
+  String get helpTitle => 'دليل تقدير طول لفائف المواد';
+
+  @override
+  String get helpProblemSolvedTitle => 'المشكلة التي يعالجها';
+
+  @override
+  String get helpProblemSolvedContent =>
+      'يقدر الطول المتبقي للمواد الملفوفة (الشريط، الفيلم، الورق، القماش) من القطر الخارجي وقطر القلب والسمك دون فردها.';
+
+  @override
+  String get helpHowToUseTitle => 'طريقة الاستخدام';
+
+  @override
+  String get helpHowToUseContent =>
+      'أدخل القطر الخارجي (D) وقطر القلب (d) وسمك المادة (t) باستخدام نفس وحدة القياس (مثل مم)، ثم اضغط تقدير الطول.';
+
+  @override
+  String get helpReadingResultsTitle => 'قراءة النتائج';
+
+  @override
+  String get helpReadingResultsContent =>
+      'يعرض إجمالي الطول المقدر (بالأمتار والأقدام)، وعدد اللفات الإجمالي (الطبقات)، ومساحة المقطع العرضي للمادة الملفوفة.';
+
+  @override
+  String get helpExampleTitle => 'مثال توضيحي';
+
+  @override
+  String get helpExampleContent =>
+      'القطر الخارجي: 200 مم | القلب: 76 مم | السمك: 0.1 مم\nالنتيجة: حوالي 268.8 متر (~882 قدم) عبر حوالي 620 لفة.';
+
+  @override
+  String get helpLimitsTitle => 'التحقق والقيود';
+
+  @override
+  String get helpLimitsContent =>
+      'تقريب هندسي قائم على حلزون أرخميدس. لا يراعي شدة الشد أثناء اللف أو تمدد المواد أو تفاوت سمك الطبقات.';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'البيانات المحلية والإعلانات';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'تتم جميع التقديرات محليًا على هاتفك دون أي اتصال بالإنترنت. يظهر شريط إعلاني قياسي من AdMob أسفل الشاشة.';
 }

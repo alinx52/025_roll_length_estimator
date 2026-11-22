@@ -94,4 +94,52 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get errorValidNumbers => 'Nhập số hợp lệ';
+
+  @override
+  String get helpTooltip => 'Trợ giúp & Hướng dẫn';
+
+  @override
+  String get helpTitle => 'Hướng dẫn ước tính chiều dài cuộn';
+
+  @override
+  String get helpProblemSolvedTitle => 'Vấn đề giải quyết';
+
+  @override
+  String get helpProblemSolvedContent =>
+      'Ước tính chiều dài còn lại của vật liệu cuộn (băng dính, màng phim, giấy, vải) từ đường kính ngoài, đường kính lõi và độ dày.';
+
+  @override
+  String get helpHowToUseTitle => 'Cách sử dụng';
+
+  @override
+  String get helpHowToUseContent =>
+      'Nhập Đường kính ngoài (D), Đường kính lõi (d) và Độ dày vật liệu (t) theo cùng một đơn vị (ví dụ mm), sau đó nhấn Ước tính chiều dài.';
+
+  @override
+  String get helpReadingResultsTitle => 'Đọc kết quả';
+
+  @override
+  String get helpReadingResultsContent =>
+      'Hiển thị tổng chiều dài ước tính (mét và feet), tổng số vòng cuộn (các lớp) và diện tích mặt cắt ngang của cuộn.';
+
+  @override
+  String get helpExampleTitle => 'Ví dụ';
+
+  @override
+  String get helpExampleContent =>
+      'Ngoài: 200 mm | Lõi: 76 mm | Độ dày: 0.1 mm\nKết quả: ~268,8 mét (~882 ft) qua ~620 vòng cuộn.';
+
+  @override
+  String get helpLimitsTitle => 'Xác thực & Giới hạn';
+
+  @override
+  String get helpLimitsContent =>
+      'Ước tính hình học xoắn ốc Archimedes. Không tính đến lực căng cuộn, độ giãn của vật liệu hoặc độ dày không đồng đều.';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'Dữ liệu cục bộ & Quảng cáo';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'Tất cả các ước tính chạy cục bộ trên điện thoại của bạn mà không cần mạng. Biểu ngữ AdMob hiển thị ở dưới cùng.';
 }

@@ -25,5 +25,19 @@
   "errorAllMeasurements": "3つの測定値をすべて入力してください",
   "errorPositive": "0より大きい値を使用してください",
   "errorOuterLarger": "外径は芯の直径より大きくしてください",
-  "errorValidNumbers": "有効な数値を入力してください"
+  "errorValidNumbers": "有効な数値を入力してください",
+  "helpTooltip": "ヘルプと使い方",
+  "helpTitle": "ロール残量長さ計算ガイド",
+  "helpProblemSolvedTitle": "解決する課題",
+  "helpProblemSolvedContent": "テープ、フィルム、紙、生地などロール状に巻かれた材料を巻き戻すことなく、外径、芯（コア）径、厚みから残りの全長を推定します。",
+  "helpHowToUseTitle": "使用方法",
+  "helpHowToUseContent": "ロールの外径（D）、芯の直径（d）、素材の厚み（t）を同一の単位（mmなど）で入力し、「長さを推定」をタップします。",
+  "helpReadingResultsTitle": "結果の見方",
+  "helpReadingResultsContent": "推定総長さ（メートルおよびフィート）、巻き数（積層数）、ロール断面積が表示されます。",
+  "helpExampleTitle": "具体例",
+  "helpExampleContent": "外径: 200 mm | 芯径: 76 mm | 厚み: 0.1 mm\n結果: 推定長さ 約268.8 m (~882 ft)、巻き数 約620層。",
+  "helpLimitsTitle": "検証と制限事項",
+  "helpLimitsContent": "アルキメデスの螺旋公式に基づく数学的近似です。巻き取り時の張力による潰れ、伸縮性、厚みのバラツキを保証するものではありません。",
+  "helpDataAndPrivacyTitle": "ローカルデータと広告",
+  "helpDataAndPrivacyContent": "すべての計算は外部通信なしで端末内でのみ行われます。画面下部に標準AdMobバナーが表示されます。"
 }

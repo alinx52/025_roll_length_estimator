@@ -95,4 +95,52 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get errorValidNumbers => 'Gültige Zahlen eingeben';
+
+  @override
+  String get helpTooltip => 'Hilfe & Anleitung';
+
+  @override
+  String get helpTitle => 'Rollenlängen-Schätzer-Leitfaden';
+
+  @override
+  String get helpProblemSolvedTitle => 'Gelöstes Problem';
+
+  @override
+  String get helpProblemSolvedContent =>
+      'Schätzt offline die verbleibende Länge von aufgerolltem Material (Band, Folie, Papier, Stoff) anhand von Außendurchmesser, Kern und Dicke.';
+
+  @override
+  String get helpHowToUseTitle => 'Bedienung';
+
+  @override
+  String get helpHowToUseContent =>
+      'Geben Sie Außendurchmesser (D), Kerndurchmesser (d) und Materialstärke (t) in derselben Einheit (z.B. mm) ein und tippen Sie auf Schätzen.';
+
+  @override
+  String get helpReadingResultsTitle => 'Ergebnisse verstehen';
+
+  @override
+  String get helpReadingResultsContent =>
+      'Zeigt geschätzte Gesamtlänge (Meter und Fuß), Anzahl der Wicklungen (Lagen) und Rollenquerschnittsfläche an.';
+
+  @override
+  String get helpExampleTitle => 'Beispiel';
+
+  @override
+  String get helpExampleContent =>
+      'Außen: 200 mm | Kern: 76 mm | Dicke: 0.1 mm\nErgebnis: ca. 268,8 Meter (~882 Fuß) bei ca. 620 Lagen.';
+
+  @override
+  String get helpLimitsTitle => 'Validierung & Grenzen';
+
+  @override
+  String get helpLimitsContent =>
+      'Archimedische Spiralen-Näherung. Berücksichtigt weder Wickelspannung noch Materialdehnung oder Dickenschwankungen.';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'Lokale Daten & Werbung';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'Alle Schätzungen laufen lokal auf Ihrem Telefon ohne Netzwerkaufrufe. Unten wird ein AdMob-Banner angezeigt.';
 }

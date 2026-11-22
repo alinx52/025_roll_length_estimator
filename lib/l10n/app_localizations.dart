@@ -282,6 +282,90 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Enter valid numbers'**
   String get errorValidNumbers;
+
+  /// No description provided for @helpTooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'Help & Guide'**
+  String get helpTooltip;
+
+  /// No description provided for @helpTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Roll Length Estimator Guide'**
+  String get helpTitle;
+
+  /// No description provided for @helpProblemSolvedTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Problem Solved'**
+  String get helpProblemSolvedTitle;
+
+  /// No description provided for @helpProblemSolvedContent.
+  ///
+  /// In en, this message translates to:
+  /// **'Estimates the remaining linear length of wound roll materials (tape, film, paper, foil, fabric) from outer diameter, core diameter, and thickness offline.'**
+  String get helpProblemSolvedContent;
+
+  /// No description provided for @helpHowToUseTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'How to Use'**
+  String get helpHowToUseTitle;
+
+  /// No description provided for @helpHowToUseContent.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter the Outer Diameter (D), Core Diameter (d), and Material Thickness (t) using matching measurement units (e.g. mm), then tap Estimate length.'**
+  String get helpHowToUseContent;
+
+  /// No description provided for @helpReadingResultsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Reading Results'**
+  String get helpReadingResultsTitle;
+
+  /// No description provided for @helpReadingResultsContent.
+  ///
+  /// In en, this message translates to:
+  /// **'Displays estimated total length (meters and feet), total wound turns (layers), and cross-sectional wound material area.'**
+  String get helpReadingResultsContent;
+
+  /// No description provided for @helpExampleTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Example'**
+  String get helpExampleTitle;
+
+  /// No description provided for @helpExampleContent.
+  ///
+  /// In en, this message translates to:
+  /// **'Outer: 200 mm | Core: 76 mm | Thickness: 0.1 mm\nResult: ~268.8 meters (~882 ft) across ~620 wound turns.'**
+  String get helpExampleContent;
+
+  /// No description provided for @helpLimitsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Validation & Limitations'**
+  String get helpLimitsTitle;
+
+  /// No description provided for @helpLimitsContent.
+  ///
+  /// In en, this message translates to:
+  /// **'Archimedean spiral geometric approximation. Does not account for winding tension compaction, material stretch, or uneven layer thickness.'**
+  String get helpLimitsContent;
+
+  /// No description provided for @helpDataAndPrivacyTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Local Data & Ads'**
+  String get helpDataAndPrivacyTitle;
+
+  /// No description provided for @helpDataAndPrivacyContent.
+  ///
+  /// In en, this message translates to:
+  /// **'All estimations run locally on your phone without network calls or storage permissions. An AdMob banner is displayed at the bottom.'**
+  String get helpDataAndPrivacyContent;
 }
 
 class _AppLocalizationsDelegate

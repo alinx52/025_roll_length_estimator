@@ -25,5 +25,19 @@
   "errorAllMeasurements": "請輸入全部三個測量值",
   "errorPositive": "請使用大於零的值",
   "errorOuterLarger": "外徑必須大於捲芯直徑",
-  "errorValidNumbers": "請輸入有效數字"
+  "errorValidNumbers": "請輸入有效數字",
+  "helpTooltip": "說明與指南",
+  "helpTitle": "捲材長度估算指南",
+  "helpProblemSolvedTitle": "解決的問題",
+  "helpProblemSolvedContent": "離線透過外徑、軸心直徑與材料厚度，精準估算捲筒材料（膠帶、薄膜、紙張、織物等）的剩餘展開總長度，無須拆捲測量。",
+  "helpHowToUseTitle": "使用方法",
+  "helpHowToUseContent": "使用相同的測量單位（如公釐 mm）輸入外徑（D）、軸心直徑（d）與材料厚度（t），接著點擊「估算長度」。",
+  "helpReadingResultsTitle": "查看結果",
+  "helpReadingResultsContent": "展示估算總展開長度（公尺與英呎）、總捲繞圈數（層數）及捲材斷面面積。",
+  "helpExampleTitle": "範例",
+  "helpExampleContent": "外徑: 200 mm | 軸心: 76 mm | 厚度: 0.1 mm\n結果: 估算長度約 268.8 公尺 (~882 英呎)，捲繞約 620 圈。",
+  "helpLimitsTitle": "驗證與限制",
+  "helpLimitsContent": "基於阿基米德螺旋公式的幾何數學估算。不考慮捲取張力壓實緊度、材料彈性延展拉伸或厚度不均造成的誤差。",
+  "helpDataAndPrivacyTitle": "本機資料與廣告",
+  "helpDataAndPrivacyContent": "所有估算均在手機本機離線執行，無須連網或儲存權限。螢幕底部顯示標準AdMob橫幅廣告。"
 }

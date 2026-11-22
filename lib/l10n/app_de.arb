@@ -25,5 +25,19 @@
   "errorAllMeasurements": "Alle drei Messwerte eingeben",
   "errorPositive": "Werte größer als null verwenden",
   "errorOuterLarger": "Der Außendurchmesser muss größer als der Kerndurchmesser sein",
-  "errorValidNumbers": "Gültige Zahlen eingeben"
+  "errorValidNumbers": "Gültige Zahlen eingeben",
+  "helpTooltip": "Hilfe & Anleitung",
+  "helpTitle": "Rollenlängen-Schätzer-Leitfaden",
+  "helpProblemSolvedTitle": "Gelöstes Problem",
+  "helpProblemSolvedContent": "Schätzt offline die verbleibende Länge von aufgerolltem Material (Band, Folie, Papier, Stoff) anhand von Außendurchmesser, Kern und Dicke.",
+  "helpHowToUseTitle": "Bedienung",
+  "helpHowToUseContent": "Geben Sie Außendurchmesser (D), Kerndurchmesser (d) und Materialstärke (t) in derselben Einheit (z.B. mm) ein und tippen Sie auf Schätzen.",
+  "helpReadingResultsTitle": "Ergebnisse verstehen",
+  "helpReadingResultsContent": "Zeigt geschätzte Gesamtlänge (Meter und Fuß), Anzahl der Wicklungen (Lagen) und Rollenquerschnittsfläche an.",
+  "helpExampleTitle": "Beispiel",
+  "helpExampleContent": "Außen: 200 mm | Kern: 76 mm | Dicke: 0.1 mm\nErgebnis: ca. 268,8 Meter (~882 Fuß) bei ca. 620 Lagen.",
+  "helpLimitsTitle": "Validierung & Grenzen",
+  "helpLimitsContent": "Archimedische Spiralen-Näherung. Berücksichtigt weder Wickelspannung noch Materialdehnung oder Dickenschwankungen.",
+  "helpDataAndPrivacyTitle": "Lokale Daten & Werbung",
+  "helpDataAndPrivacyContent": "Alle Schätzungen laufen lokal auf Ihrem Telefon ohne Netzwerkaufrufe. Unten wird ein AdMob-Banner angezeigt."
 }

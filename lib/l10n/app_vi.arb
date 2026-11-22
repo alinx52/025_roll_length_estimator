@@ -25,5 +25,19 @@
   "errorAllMeasurements": "Nhập đủ ba số đo",
   "errorPositive": "Dùng giá trị lớn hơn không",
   "errorOuterLarger": "Đường kính ngoài phải lớn hơn đường kính lõi",
-  "errorValidNumbers": "Nhập số hợp lệ"
+  "errorValidNumbers": "Nhập số hợp lệ",
+  "helpTooltip": "Trợ giúp & Hướng dẫn",
+  "helpTitle": "Hướng dẫn ước tính chiều dài cuộn",
+  "helpProblemSolvedTitle": "Vấn đề giải quyết",
+  "helpProblemSolvedContent": "Ước tính chiều dài còn lại của vật liệu cuộn (băng dính, màng phim, giấy, vải) từ đường kính ngoài, đường kính lõi và độ dày.",
+  "helpHowToUseTitle": "Cách sử dụng",
+  "helpHowToUseContent": "Nhập Đường kính ngoài (D), Đường kính lõi (d) và Độ dày vật liệu (t) theo cùng một đơn vị (ví dụ mm), sau đó nhấn Ước tính chiều dài.",
+  "helpReadingResultsTitle": "Đọc kết quả",
+  "helpReadingResultsContent": "Hiển thị tổng chiều dài ước tính (mét và feet), tổng số vòng cuộn (các lớp) và diện tích mặt cắt ngang của cuộn.",
+  "helpExampleTitle": "Ví dụ",
+  "helpExampleContent": "Ngoài: 200 mm | Lõi: 76 mm | Độ dày: 0.1 mm\nKết quả: ~268,8 mét (~882 ft) qua ~620 vòng cuộn.",
+  "helpLimitsTitle": "Xác thực & Giới hạn",
+  "helpLimitsContent": "Ước tính hình học xoắn ốc Archimedes. Không tính đến lực căng cuộn, độ giãn của vật liệu hoặc độ dày không đồng đều.",
+  "helpDataAndPrivacyTitle": "Dữ liệu cục bộ & Quảng cáo",
+  "helpDataAndPrivacyContent": "Tất cả các ước tính chạy cục bộ trên điện thoại của bạn mà không cần mạng. Biểu ngữ AdMob hiển thị ở dưới cùng."
 }

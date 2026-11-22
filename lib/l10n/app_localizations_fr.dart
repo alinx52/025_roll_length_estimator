@@ -95,4 +95,52 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get errorValidNumbers => 'Saisissez des nombres valides';
+
+  @override
+  String get helpTooltip => 'Aide et guide';
+
+  @override
+  String get helpTitle => 'Guide de l\'estimateur de longueur de rouleau';
+
+  @override
+  String get helpProblemSolvedTitle => 'Problème résolu';
+
+  @override
+  String get helpProblemSolvedContent =>
+      'Estime la longueur restante d\'un matériau en rouleau (ruban, film, papier, tissu) d\'après le diamètre extérieur, l\'âme et l\'épaisseur.';
+
+  @override
+  String get helpHowToUseTitle => 'Mode d\'emploi';
+
+  @override
+  String get helpHowToUseContent =>
+      'Entrez le diamètre extérieur (D), le diamètre de l\'âme (d) et l\'épaisseur (t) dans la même unité (ex. mm), puis appuyez sur Estimer.';
+
+  @override
+  String get helpReadingResultsTitle => 'Lecture des résultats';
+
+  @override
+  String get helpReadingResultsContent =>
+      'Affiche la longueur totale estimée (mètres et pieds), le nombre de tours (couches) et l\'aire de la section enroulée.';
+
+  @override
+  String get helpExampleTitle => 'Exemple';
+
+  @override
+  String get helpExampleContent =>
+      'Extérieur : 200 mm | Âme : 76 mm | Épaisseur : 0.1 mm\nRésultat : ~268,8 mètres (~882 pi) sur ~620 tours.';
+
+  @override
+  String get helpLimitsTitle => 'Validations et limites';
+
+  @override
+  String get helpLimitsContent =>
+      'Approximation géométrique par spirale d\'Archimède. Ne prend pas en compte la tension d\'enroulement ni l\'élasticité du matériau.';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'Données locales et publicités';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'Tous les calculs s\'exécutent localement sans appels réseau. Une bannière AdMob standard est affichée en bas.';
 }

@@ -95,4 +95,52 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get errorValidNumbers => 'Masukkan angka yang valid';
+
+  @override
+  String get helpTooltip => 'Bantuan & Panduan';
+
+  @override
+  String get helpTitle => 'Panduan Estimator Panjang Gulungan';
+
+  @override
+  String get helpProblemSolvedTitle => 'Masalah yang Diatasi';
+
+  @override
+  String get helpProblemSolvedContent =>
+      'Memperkirakan sisa panjang bahan gulungan (pita, film, kertas, kain) dari diameter luar, diameter inti, dan ketebalan material.';
+
+  @override
+  String get helpHowToUseTitle => 'Cara Penggunaan';
+
+  @override
+  String get helpHowToUseContent =>
+      'Masukkan Diameter Luar (D), Diameter Inti (d), dan Ketebalan Bahan (t) dengan satuan yang sama (mis. mm), lalu ketuk Estimasi panjang.';
+
+  @override
+  String get helpReadingResultsTitle => 'Membaca Hasil';
+
+  @override
+  String get helpReadingResultsContent =>
+      'Menampilkan estimasi panjang total (meter dan kaki), jumlah lapisan putaran, dan luas penampang gulungan.';
+
+  @override
+  String get helpExampleTitle => 'Contoh';
+
+  @override
+  String get helpExampleContent =>
+      'Luar: 200 mm | Inti: 76 mm | Tebal: 0.1 mm\nHasil: ~268,8 meter (~882 kaki) dalam ~620 putaran.';
+
+  @override
+  String get helpLimitsTitle => 'Validasi & Batasan';
+
+  @override
+  String get helpLimitsContent =>
+      'Aproksimasi geometris spiral Archimedes. Tidak memperhitungkan tegangan gulungan, elastisitas bahan, atau ketebalan yang tidak rata.';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'Data Lokal & Iklan';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'Semua estimasi berjalan di ponsel tanpa panggilan jaringan atau izin penyimpanan. Spanduk AdMob ditampilkan di bawah.';
 }

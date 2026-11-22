@@ -25,5 +25,19 @@
   "errorAllMeasurements": "Insira as três medidas",
   "errorPositive": "Use valores maiores que zero",
   "errorOuterLarger": "O diâmetro externo deve ser maior que o diâmetro do núcleo",
-  "errorValidNumbers": "Insira números válidos"
+  "errorValidNumbers": "Insira números válidos",
+  "helpTooltip": "Ajuda e guia",
+  "helpTitle": "Guia do Estimador de Comprimento de Bobinas",
+  "helpProblemSolvedTitle": "Problema resolvido",
+  "helpProblemSolvedContent": "Estima o comprimento restante de bobinas (fita, filme, papel, tecido) usando o diâmetro externo, diâmetro do núcleo e espessura.",
+  "helpHowToUseTitle": "Como usar",
+  "helpHowToUseContent": "Insira o diâmetro externo (D), diâmetro do núcleo (d) e espessura (t) na mesma unidade (ex.: mm) e toque em Estimar comprimento.",
+  "helpReadingResultsTitle": "Leitura dos resultados",
+  "helpReadingResultsContent": "Mostra o comprimento total estimado (metros e pés), o número de voltas (camadas) e a área de seção transversal.",
+  "helpExampleTitle": "Exemplo",
+  "helpExampleContent": "Externo: 200 mm | Núcleo: 76 mm | Espessura: 0.1 mm\nResultado: ~268,8 metros (~882 pés) em ~620 voltas.",
+  "helpLimitsTitle": "Validação e limites",
+  "helpLimitsContent": "Aproximação geométrica de espiral de Arquimedes. Não considera tensão de enrolamento, elasticidade ou espessura irregular.",
+  "helpDataAndPrivacyTitle": "Dados locais e anúncios",
+  "helpDataAndPrivacyContent": "Todas as estimativas são feitas localmente no aparelho sem chamadas de rede. Um banner do AdMob é exibido abaixo."
 }

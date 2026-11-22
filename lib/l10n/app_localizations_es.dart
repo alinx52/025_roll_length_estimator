@@ -95,4 +95,52 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get errorValidNumbers => 'Introduce números válidos';
+
+  @override
+  String get helpTooltip => 'Ayuda y guía';
+
+  @override
+  String get helpTitle => 'Guía del estimador de longitud de rollos';
+
+  @override
+  String get helpProblemSolvedTitle => 'Problema que resuelve';
+
+  @override
+  String get helpProblemSolvedContent =>
+      'Estima la longitud lineal restante de bobinas de material (cinta, film, papel, tela) a partir del diámetro exterior, núcleo y grosor.';
+
+  @override
+  String get helpHowToUseTitle => 'Cómo usar';
+
+  @override
+  String get helpHowToUseContent =>
+      'Introduce el diámetro exterior (D), diámetro del núcleo (d) y grosor (t) con la misma unidad (ej. mm), y pulsa Estimar longitud.';
+
+  @override
+  String get helpReadingResultsTitle => 'Interpretación de resultados';
+
+  @override
+  String get helpReadingResultsContent =>
+      'Muestra la longitud total estimada (metros y pies), número de vueltas (capas) y área transversal del rollo.';
+
+  @override
+  String get helpExampleTitle => 'Ejemplo';
+
+  @override
+  String get helpExampleContent =>
+      'Exterior: 200 mm | Núcleo: 76 mm | Grosor: 0.1 mm\nResultado: ~268.8 metros (~882 pies) en ~620 vueltas.';
+
+  @override
+  String get helpLimitsTitle => 'Validaciones y límites';
+
+  @override
+  String get helpLimitsContent =>
+      'Aproximación geométrica en espiral de Arquímedes. No tiene en cuenta la tensión del bobinado, elasticidad del material ni grosor irregular.';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'Datos locales y anuncios';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'Todas las estimaciones se ejecutan en el teléfono sin llamadas a la red. Se muestra un banner estándar de AdMob en la parte inferior.';
 }

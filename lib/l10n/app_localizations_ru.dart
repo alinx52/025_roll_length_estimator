@@ -95,4 +95,52 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get errorValidNumbers => 'Введите допустимые числа';
+
+  @override
+  String get helpTooltip => 'Справка и руководство';
+
+  @override
+  String get helpTitle => 'Руководство по оценке длины рулона';
+
+  @override
+  String get helpProblemSolvedTitle => 'Решаемая задача';
+
+  @override
+  String get helpProblemSolvedContent =>
+      'Оценивает остаточную длину рулонных материалов (лента, пленка, бумага, ткань) по внешнему диаметру, диаметру втулки и толщине.';
+
+  @override
+  String get helpHowToUseTitle => 'Как использовать';
+
+  @override
+  String get helpHowToUseContent =>
+      'Введите внешний диаметр (D), диаметр втулки (d) и толщину материала (t) в одинаковых единицах (напр. мм) и нажмите «Оценить».';
+
+  @override
+  String get helpReadingResultsTitle => 'Чтение результатов';
+
+  @override
+  String get helpReadingResultsContent =>
+      'Отображает расчетную длину (в метрах и футах), число витков (слоев) и площадь поперечного сечения намотки.';
+
+  @override
+  String get helpExampleTitle => 'Пример';
+
+  @override
+  String get helpExampleContent =>
+      'Внешний: 200 мм | Втулка: 76 мм | Толщина: 0.1 мм\nРезультат: ~268.8 метров (~882 футов) в ~620 витках.';
+
+  @override
+  String get helpLimitsTitle => 'Проверка и ограничения';
+
+  @override
+  String get helpLimitsContent =>
+      'Геометрическое приближение по архимедовой спирали. Не учитывает натяжение намотки, растяжение материала и неравномерность толщины.';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'Локальные данные и реклама';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'Все расчеты выполняются локально на телефоне без доступа к сети. Внизу отображается стандартный баннер AdMob.';
 }

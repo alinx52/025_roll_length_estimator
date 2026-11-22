@@ -95,4 +95,52 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get errorValidNumbers => 'Enter valid numbers';
+
+  @override
+  String get helpTooltip => 'Help & Guide';
+
+  @override
+  String get helpTitle => 'Roll Length Estimator Guide';
+
+  @override
+  String get helpProblemSolvedTitle => 'Problem Solved';
+
+  @override
+  String get helpProblemSolvedContent =>
+      'Estimates the remaining linear length of wound roll materials (tape, film, paper, foil, fabric) from outer diameter, core diameter, and thickness offline.';
+
+  @override
+  String get helpHowToUseTitle => 'How to Use';
+
+  @override
+  String get helpHowToUseContent =>
+      'Enter the Outer Diameter (D), Core Diameter (d), and Material Thickness (t) using matching measurement units (e.g. mm), then tap Estimate length.';
+
+  @override
+  String get helpReadingResultsTitle => 'Reading Results';
+
+  @override
+  String get helpReadingResultsContent =>
+      'Displays estimated total length (meters and feet), total wound turns (layers), and cross-sectional wound material area.';
+
+  @override
+  String get helpExampleTitle => 'Example';
+
+  @override
+  String get helpExampleContent =>
+      'Outer: 200 mm | Core: 76 mm | Thickness: 0.1 mm\nResult: ~268.8 meters (~882 ft) across ~620 wound turns.';
+
+  @override
+  String get helpLimitsTitle => 'Validation & Limitations';
+
+  @override
+  String get helpLimitsContent =>
+      'Archimedean spiral geometric approximation. Does not account for winding tension compaction, material stretch, or uneven layer thickness.';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'Local Data & Ads';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'All estimations run locally on your phone without network calls or storage permissions. An AdMob banner is displayed at the bottom.';
 }

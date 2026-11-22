@@ -25,5 +25,19 @@
   "errorAllMeasurements": "Masukkan ketiga pengukuran",
   "errorPositive": "Gunakan nilai yang lebih besar dari nol",
   "errorOuterLarger": "Diameter luar harus lebih besar daripada diameter inti",
-  "errorValidNumbers": "Masukkan angka yang valid"
+  "errorValidNumbers": "Masukkan angka yang valid",
+  "helpTooltip": "Bantuan & Panduan",
+  "helpTitle": "Panduan Estimator Panjang Gulungan",
+  "helpProblemSolvedTitle": "Masalah yang Diatasi",
+  "helpProblemSolvedContent": "Memperkirakan sisa panjang bahan gulungan (pita, film, kertas, kain) dari diameter luar, diameter inti, dan ketebalan material.",
+  "helpHowToUseTitle": "Cara Penggunaan",
+  "helpHowToUseContent": "Masukkan Diameter Luar (D), Diameter Inti (d), dan Ketebalan Bahan (t) dengan satuan yang sama (mis. mm), lalu ketuk Estimasi panjang.",
+  "helpReadingResultsTitle": "Membaca Hasil",
+  "helpReadingResultsContent": "Menampilkan estimasi panjang total (meter dan kaki), jumlah lapisan putaran, dan luas penampang gulungan.",
+  "helpExampleTitle": "Contoh",
+  "helpExampleContent": "Luar: 200 mm | Inti: 76 mm | Tebal: 0.1 mm\nHasil: ~268,8 meter (~882 kaki) dalam ~620 putaran.",
+  "helpLimitsTitle": "Validasi & Batasan",
+  "helpLimitsContent": "Aproksimasi geometris spiral Archimedes. Tidak memperhitungkan tegangan gulungan, elastisitas bahan, atau ketebalan yang tidak rata.",
+  "helpDataAndPrivacyTitle": "Data Lokal & Iklan",
+  "helpDataAndPrivacyContent": "Semua estimasi berjalan di ponsel tanpa panggilan jaringan atau izin penyimpanan. Spanduk AdMob ditampilkan di bawah."
 }

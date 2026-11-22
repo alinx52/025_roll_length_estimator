@@ -1,7 +1,9 @@
 {
   "@@locale": "en",
   "appTitle": "Roll Length Estimator",
-  "@appTitle": {"description": "The app title."},
+  "@appTitle": {
+    "description": "The app title."
+  },
   "appDescription": "Estimate the length on a uniformly and tightly wound roll.",
   "languageMenuTooltip": "Choose language",
   "privacyPolicy": "Privacy policy",
@@ -20,14 +22,49 @@
   "clearMeasurements": "Clear measurements",
   "estimatedLength": "Estimated length",
   "metresResult": "{value} m",
-  "@metresResult": {"placeholders": {"value": {"type": "String"}}},
+  "@metresResult": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
   "feetResult": "{value} ft",
-  "@feetResult": {"placeholders": {"value": {"type": "String"}}},
+  "@feetResult": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
   "selectedUnitResult": "In selected unit: {value} {unit}",
-  "@selectedUnitResult": {"placeholders": {"value": {"type": "String"}, "unit": {"type": "String"}}},
+  "@selectedUnitResult": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
   "cautionNote": "Loose winding, compression, gaps, and thickness variation can change the real length.",
   "errorAllMeasurements": "Enter all three measurements",
   "errorPositive": "Use values greater than zero",
   "errorOuterLarger": "Outer diameter must be larger than core diameter",
-  "errorValidNumbers": "Enter valid numbers"
+  "errorValidNumbers": "Enter valid numbers",
+  "helpTooltip": "Help & Guide",
+  "helpTitle": "Roll Length Estimator Guide",
+  "helpProblemSolvedTitle": "Problem Solved",
+  "helpProblemSolvedContent": "Estimates the remaining linear length of wound roll materials (tape, film, paper, foil, fabric) from outer diameter, core diameter, and thickness offline.",
+  "helpHowToUseTitle": "How to Use",
+  "helpHowToUseContent": "Enter the Outer Diameter (D), Core Diameter (d), and Material Thickness (t) using matching measurement units (e.g. mm), then tap Estimate length.",
+  "helpReadingResultsTitle": "Reading Results",
+  "helpReadingResultsContent": "Displays estimated total length (meters and feet), total wound turns (layers), and cross-sectional wound material area.",
+  "helpExampleTitle": "Example",
+  "helpExampleContent": "Outer: 200 mm | Core: 76 mm | Thickness: 0.1 mm\nResult: ~268.8 meters (~882 ft) across ~620 wound turns.",
+  "helpLimitsTitle": "Validation & Limitations",
+  "helpLimitsContent": "Archimedean spiral geometric approximation. Does not account for winding tension compaction, material stretch, or uneven layer thickness.",
+  "helpDataAndPrivacyTitle": "Local Data & Ads",
+  "helpDataAndPrivacyContent": "All estimations run locally on your phone without network calls or storage permissions. An AdMob banner is displayed at the bottom."
 }

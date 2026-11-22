@@ -25,5 +25,19 @@
   "errorAllMeasurements": "请输入全部三个测量值",
   "errorPositive": "请输入大于零的值",
   "errorOuterLarger": "外径必须大于卷芯直径",
-  "errorValidNumbers": "请输入有效数字"
+  "errorValidNumbers": "请输入有效数字",
+  "helpTooltip": "帮助与指南",
+  "helpTitle": "卷材长度估算指南",
+  "helpProblemSolvedTitle": "解决的问题",
+  "helpProblemSolvedContent": "离线通过外径、卷芯直径和材料厚度，精准估算卷装材料（胶带、薄膜、纸张、织物等）的剩余展开总长度，无需解卷测量。",
+  "helpHowToUseTitle": "使用方法",
+  "helpHowToUseContent": "使用相同的测量单位（如毫米 mm）输入外径（D）、卷芯直径（d）和材料厚度（t），然后点击“估算长度”。",
+  "helpReadingResultsTitle": "查看结果",
+  "helpReadingResultsContent": "展示估算的总展开长度（米与英尺）、总卷绕圈数（层数）以及卷材截面面积。",
+  "helpExampleTitle": "示例",
+  "helpExampleContent": "外径: 200 mm | 卷芯: 76 mm | 厚度: 0.1 mm\n结果: 估算长度约 268.8 米 (~882 英尺)，卷绕约 620 圈。",
+  "helpLimitsTitle": "验证与限制",
+  "helpLimitsContent": "基于阿基米德螺旋公式的几何数学估算。不计入卷绕张力压实松紧度、材料弹性延展伸长或厚度不均带来的物理误差。",
+  "helpDataAndPrivacyTitle": "本地数据与广告",
+  "helpDataAndPrivacyContent": "所有估算均在手机本地离线运行，无需网络通信与存储权限。屏幕底部展示标准AdMob横幅广告。"
 }

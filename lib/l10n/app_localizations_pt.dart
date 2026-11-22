@@ -95,6 +95,54 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get errorValidNumbers => 'Insira números válidos';
+
+  @override
+  String get helpTooltip => 'Ajuda e guia';
+
+  @override
+  String get helpTitle => 'Guia do Estimador de Comprimento de Bobinas';
+
+  @override
+  String get helpProblemSolvedTitle => 'Problema resolvido';
+
+  @override
+  String get helpProblemSolvedContent =>
+      'Estima o comprimento restante de bobinas (fita, filme, papel, tecido) usando o diâmetro externo, diâmetro do núcleo e espessura.';
+
+  @override
+  String get helpHowToUseTitle => 'Como usar';
+
+  @override
+  String get helpHowToUseContent =>
+      'Insira o diâmetro externo (D), diâmetro do núcleo (d) e espessura (t) na mesma unidade (ex.: mm) e toque em Estimar comprimento.';
+
+  @override
+  String get helpReadingResultsTitle => 'Leitura dos resultados';
+
+  @override
+  String get helpReadingResultsContent =>
+      'Mostra o comprimento total estimado (metros e pés), o número de voltas (camadas) e a área de seção transversal.';
+
+  @override
+  String get helpExampleTitle => 'Exemplo';
+
+  @override
+  String get helpExampleContent =>
+      'Externo: 200 mm | Núcleo: 76 mm | Espessura: 0.1 mm\nResultado: ~268,8 metros (~882 pés) em ~620 voltas.';
+
+  @override
+  String get helpLimitsTitle => 'Validação e limites';
+
+  @override
+  String get helpLimitsContent =>
+      'Aproximação geométrica de espiral de Arquimedes. Não considera tensão de enrolamento, elasticidade ou espessura irregular.';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'Dados locais e anúncios';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'Todas as estimativas são feitas localmente no aparelho sem chamadas de rede. Um banner do AdMob é exibido abaixo.';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -187,4 +235,52 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get errorValidNumbers => 'Insira números válidos';
+
+  @override
+  String get helpTooltip => 'Ajuda e guia';
+
+  @override
+  String get helpTitle => 'Guia do Estimador de Comprimento de Bobinas';
+
+  @override
+  String get helpProblemSolvedTitle => 'Problema resolvido';
+
+  @override
+  String get helpProblemSolvedContent =>
+      'Estima o comprimento restante de bobinas (fita, filme, papel, tecido) usando o diâmetro externo, diâmetro do núcleo e espessura.';
+
+  @override
+  String get helpHowToUseTitle => 'Como usar';
+
+  @override
+  String get helpHowToUseContent =>
+      'Insira o diâmetro externo (D), diâmetro do núcleo (d) e espessura (t) na mesma unidade (ex.: mm) e toque em Estimar comprimento.';
+
+  @override
+  String get helpReadingResultsTitle => 'Leitura dos resultados';
+
+  @override
+  String get helpReadingResultsContent =>
+      'Mostra o comprimento total estimado (metros e pés), o número de voltas (camadas) e a área de seção transversal.';
+
+  @override
+  String get helpExampleTitle => 'Exemplo';
+
+  @override
+  String get helpExampleContent =>
+      'Externo: 200 mm | Núcleo: 76 mm | Espessura: 0.1 mm\nResultado: ~268,8 metros (~882 pés) em ~620 voltas.';
+
+  @override
+  String get helpLimitsTitle => 'Validação e limites';
+
+  @override
+  String get helpLimitsContent =>
+      'Aproximação geométrica de espiral de Arquimedes. Não considera tensão de enrolamento, elasticidade ou espessura irregular.';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'Dados locais e anúncios';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'Todas as estimativas são feitas localmente no aparelho sem chamadas de rede. Um banner do AdMob é exibido abaixo.';
 }

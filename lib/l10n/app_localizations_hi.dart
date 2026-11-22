@@ -94,4 +94,52 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get errorValidNumbers => 'मान्य संख्याएँ दर्ज करें';
+
+  @override
+  String get helpTooltip => 'सहायता और मार्गदर्शिका';
+
+  @override
+  String get helpTitle => 'रोल लंबाई अनुमानक मार्गदर्शिका';
+
+  @override
+  String get helpProblemSolvedTitle => 'समस्या का समाधान';
+
+  @override
+  String get helpProblemSolvedContent =>
+      'बाहरी व्यास, कोर व्यास और मोटाई से घाव रोल सामग्री (टेप, फिल्म, कागज, कपड़ा) की शेष रैखिक लंबाई का अनुमान लगाता है।';
+
+  @override
+  String get helpHowToUseTitle => 'उपयोग कैसे करें';
+
+  @override
+  String get helpHowToUseContent =>
+      'समान माप इकाइयों (उदा. मिमी) का उपयोग करके बाहरी व्यास (D), कोर व्यास (d), और सामग्री की मोटाई (t) दर्ज करें, फिर अनुमान लगाएं दबाएं।';
+
+  @override
+  String get helpReadingResultsTitle => 'परिणाम कैसे समझें';
+
+  @override
+  String get helpReadingResultsContent =>
+      'अनुमानित कुल लंबाई (मीटर और फीट), कुल घुमाव (परतें) और क्रॉस-अनुभागीय सामग्री क्षेत्र प्रदर्शित करता है।';
+
+  @override
+  String get helpExampleTitle => 'उदाहरण';
+
+  @override
+  String get helpExampleContent =>
+      'बाहरी: 200 मिमी | कोर: 76 मिमी | मोटाई: 0.1 मिमी\nपरिणाम: ~620 घुमावों में ~268.8 मीटर (~882 फीट)।';
+
+  @override
+  String get helpLimitsTitle => 'सत्यापन और सीमाएं';
+
+  @override
+  String get helpLimitsContent =>
+      'आर्किमिडीज सर्पिल ज्यामितीय सन्निकटन। घुमावदार तनाव, सामग्री खिंचाव, या असमान मोटाई को ध्यान में नहीं रखता है।';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'स्थानीय डेटा और विज्ञापन';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'सभी अनुमान नेटवर्क कॉल के बिना फोन पर स्थानीय रूप से चलते हैं। नीचे एक AdMob बैनर दिखाया गया है।';
 }

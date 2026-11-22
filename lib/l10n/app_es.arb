@@ -25,5 +25,19 @@
   "errorAllMeasurements": "Introduce las tres medidas",
   "errorPositive": "Usa valores mayores que cero",
   "errorOuterLarger": "El diámetro exterior debe ser mayor que el del núcleo",
-  "errorValidNumbers": "Introduce números válidos"
+  "errorValidNumbers": "Introduce números válidos",
+  "helpTooltip": "Ayuda y guía",
+  "helpTitle": "Guía del estimador de longitud de rollos",
+  "helpProblemSolvedTitle": "Problema que resuelve",
+  "helpProblemSolvedContent": "Estima la longitud lineal restante de bobinas de material (cinta, film, papel, tela) a partir del diámetro exterior, núcleo y grosor.",
+  "helpHowToUseTitle": "Cómo usar",
+  "helpHowToUseContent": "Introduce el diámetro exterior (D), diámetro del núcleo (d) y grosor (t) con la misma unidad (ej. mm), y pulsa Estimar longitud.",
+  "helpReadingResultsTitle": "Interpretación de resultados",
+  "helpReadingResultsContent": "Muestra la longitud total estimada (metros y pies), número de vueltas (capas) y área transversal del rollo.",
+  "helpExampleTitle": "Ejemplo",
+  "helpExampleContent": "Exterior: 200 mm | Núcleo: 76 mm | Grosor: 0.1 mm\nResultado: ~268.8 metros (~882 pies) en ~620 vueltas.",
+  "helpLimitsTitle": "Validaciones y límites",
+  "helpLimitsContent": "Aproximación geométrica en espiral de Arquímedes. No tiene en cuenta la tensión del bobinado, elasticidad del material ni grosor irregular.",
+  "helpDataAndPrivacyTitle": "Datos locales y anuncios",
+  "helpDataAndPrivacyContent": "Todas las estimaciones se ejecutan en el teléfono sin llamadas a la red. Se muestra un banner estándar de AdMob en la parte inferior."
 }
